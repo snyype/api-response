@@ -3,6 +3,12 @@
     "description": "A lightweight Laravel package for consistent and elegant JSON API responses. Simplify your controllers with ApiResponse::success() and ApiResponse::error() methods for structured and reusable response formats.",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "snype",
+            "email": "snypeatwork@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "snype\\ApiResponse\\": "src/"
