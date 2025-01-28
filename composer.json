@@ -1,0 +1,32 @@
+{
+    "name": "snype/api-response",
+    "description": "A lightweight Laravel package for consistent and elegant JSON API responses. Simplify your controllers with ApiResponse::success() and ApiResponse::error() methods for structured and reusable response formats.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "snype\\ApiResponse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "snype\\ApiResponse\\ApiResponseServiceProvider"
+            ],
+            "aliases": {
+                "ApiResponse": "snype\\ApiResponse\\Facades\\ApiResponse"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "laravel/framework": "^9.0 || ^10.0"
+    },
+    "repositories": {
+        "api-response": {
+            "type": "path",
+            "url": "../path-to-laravel-api-response"
+        }
+    }
+}
